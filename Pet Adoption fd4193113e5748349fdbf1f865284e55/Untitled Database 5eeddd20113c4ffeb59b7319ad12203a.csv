@@ -1,0 +1,12 @@
+﻿API Endpoint,Method,Description,Authorization Control
+POST,agency/register,Register as an Adoption Center,Public
+POST,/register,Register as an Owner,Public
+POST,veterinarian/register,"Register as a Veterinarian ",Public
+POST,/login,Login,Public
+GET,/browse,Browse Pets,Public
+PUT,request/veterinarian/,Approve/Deny Veterinarian Account,Protected
+PUT,veterinarian/pet,Modify Pet Records,Private
+PUT,donate/,Donate Pet,Private
+POST,/request,Adoption Request,Protected
+PUT,adopt/request,Approve/Deny Adoption Request,Protected
+,,,
